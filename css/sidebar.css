@@ -1,0 +1,15 @@
+
+.sidebar-div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.side-select {
+    padding: 5px;
+}
+
+.team-select {
+    padding: 5px;
+}
