@@ -5,7 +5,9 @@ const Card = (props) => {
     const handleClick = () => {
         return(
             <div>
-                {props.playerName} Stats go here
+                <p>{props.playerName} Expanded Stats go here</p>
+                <p>Damage: 4000</p>
+                <p>Healing: 1243</p>
             </div>
         )
     };
