@@ -21,6 +21,10 @@ class SideBar extends React.Component {
 
     handleTeam(e) {
         e.preventDefault();
+        let teamSelect = e.currentTarget;
+        this.setState({
+            teamSelected: teamSelect
+        });
     }
 
     render() {
