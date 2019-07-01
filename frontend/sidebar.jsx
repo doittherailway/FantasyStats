@@ -9,6 +9,9 @@ class SideBar extends React.Component {
             teamSelected: "",
             roleSelected: ""
         };
+
+        this.handleRole = this.handleRole.bind(this);
+        this.handleTeam = this.handleTeam.bind(this);
     }
 
     handleRole(e) {
@@ -34,7 +37,7 @@ class SideBar extends React.Component {
                     Select A Team
                 </div>
                 <div className="team-select">
-                    <ul>
+                    <ul onClick={this.handleTeam}>
                         <li>Atlanta Reign</li>
                         <li>Boston Uprising</li>
                         <li>Chengdu Hunters</li>
