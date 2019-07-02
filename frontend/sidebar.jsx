@@ -42,6 +42,8 @@ class SideBar extends React.Component {
                         <li>Boston Uprising</li>
                         <li>Chengdu Hunters</li>
                         <li>Dallas Fuel</li>
+                        <li>Los Angeles Gladiators</li>
+                        <li>San Francisco Shock</li>
                     </ul>
                 </div>
                 <div>
