@@ -12,6 +12,9 @@ class NavBar extends React.Component {
                 <div className="nav-box">
                     Stats
                 </div>
+                <div className="nav-roster">
+                    Saved Rosters
+                </div>
                 <div className="nav-box">
                     Welcome, Username
                 </div>
