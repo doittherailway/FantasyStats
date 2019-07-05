@@ -6,6 +6,7 @@ class NavBar extends React.Component {
         super(props);
     }
 
+    // make logout a dropdown
     render() {
         return(
             <div className="nav-div">
@@ -17,6 +18,7 @@ class NavBar extends React.Component {
                 </div>
                 <div className="nav-box">
                     Welcome, Username
+                    <div>Log out</div> 
                 </div>
             </div>
         )
