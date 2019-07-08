@@ -8,6 +8,8 @@ const Card = (props) => {
                 <p>{props.playerName} Expanded Stats go here</p>
                 <p>Damage: 4000</p>
                 <p>Healing: 1243</p>
+                <p>Elims: 7</p>
+                <p>Deaths: 2</p>
             </div>
         )
     };
